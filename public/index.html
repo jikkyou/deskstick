@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daddy's DeskStick</title>
+  <link rel="icon" type="image/png" href="/xitek.png">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="wallpaper"></div>
+  <main id="stage" aria-label="DeskStick canvas"></main>
+
+  <header id="topbar">
+    <div class="tb-left">
+      <span class="tb-logo">Daddy's DeskStick</span>
+    </div>
+    <div class="tb-right">
+      <button id="btnTheme" class="tb-btn" title="背景配色">背景</button>
+      <button id="btnSettings" class="tb-btn" title="设置：字体 / 文字颜色 / 存储位置">⚙</button>
+      <button id="btnRelayout" class="tb-btn" title="按当前窗口大小重新排布组件">重排</button>
+      <button id="btnAdd" class="tb-btn" title="添加组件">+ 组件</button>
+      <button id="btnEdit" class="tb-btn" title="进入编辑模式（拖动/缩放/调透明度）">编辑</button>
+      <button id="btnSave" class="tb-btn" title="保存布局">保存</button>
+    </div>
+  </header>
+
+  <div id="addMenu" class="menu" hidden></div>
+  <div id="themePanel" class="menu theme-panel" hidden>
+    <div class="tp-title">背景配色</div>
+    <div class="tp-swatches" id="tpSwatches"></div>
+    <div class="tp-row">
+      <span class="tp-label">深浅</span>
+      <input type="range" id="tpLight" min="2" max="14" step="1" value="6">
+    </div>
+  </div>
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="/vendor/lunar.js"></script>
+  <script src="/vendor/qrcode.min.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

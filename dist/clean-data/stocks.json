@@ -1,0 +1,23 @@
+{
+  "list": [
+    {
+      "secid": "1.000001",
+      "name": "上证指数",
+      "pinned": true
+    },
+    {
+      "secid": "0.399006",
+      "name": "创业板指",
+      "pinned": true
+    },
+    {
+      "secid": "0.399001",
+      "name": "深证成指"
+    },
+    {
+      "secid": "1.600519",
+      "name": "贵州茅台"
+    }
+  ],
+  "refreshSec": 60
+}

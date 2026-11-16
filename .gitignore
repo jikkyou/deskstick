@@ -1,0 +1,61 @@
+# ── 用户数据 ──────────────────────────────────────
+# data/ 里的 JSON 是「示例数据」，要提交；
+# 但用户自己跑起来的图片附件不进仓库
+data/notes-img/
+
+# ── WebView2 运行时数据（含 cookie / 登录态，绝不提交）──
+desktop/wv2data/
+desktop/wv2data_*/
+desktop/host.json
+desktop/*.log
+
+# ── 本机调试产物 ──────────────────────────────────
+desktop/tools/
+desktop/screenshot*.png
+desktop/shot*.png
+
+# ── 编译产物 ──────────────────────────────────────
+desktop/*.exe
+desktop/*.pdb
+desktop/*.obj
+
+# ── 打包产物（含 stage / 解压目录，里面有 wv2data 和 host.json）──
+dist/stage/
+dist/test-run/
+dist/DeskStick/
+dist/app/
+dist/*.exe
+dist/*.zip
+dist/*.rar
+dist/*.v*.exe
+
+# ── WebView2 SDK 副本（体积大，按 README 自行还原）──
+desktop/sdk/
+
+# ── 本机私有词表（不进仓库）────────────────────
+dist/.private-words.txt
+
+# ── 临时 / 备份 ──────────────────────────────────
+*.bak
+*.tmp
+*.old
+*.orig
+*.swp
+__pycache__/
+node_modules/
+.probe*
+_probe*.js
+
+# ── 本机截图 / 日志 ──────────────────────────────
+screenshot-*.png
+shot-*.png
+*.log
+!dist/使用说明.txt
+
+# ── 系统文件 ──────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 微信群宣传图（本地素材，不进仓库）
+docs/poster-wechat.png

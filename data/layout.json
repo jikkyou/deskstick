@@ -1,0 +1,87 @@
+{
+  "widgets": [
+    {
+      "id": "w-todos",
+      "type": "todos",
+      "x": 40,
+      "y": 52,
+      "w": 1840,
+      "h": 530,
+      "opacity": 1,
+      "z": 10,
+      "config": {}
+    },
+    {
+      "id": "w-clock",
+      "type": "clock",
+      "x": 40,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 11,
+      "config": {
+        "lat": 30.67,
+        "lon": 104.07,
+        "city": "成都"
+      }
+    },
+    {
+      "id": "w-notes",
+      "type": "notes",
+      "x": 350,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 12,
+      "config": {}
+    },
+    {
+      "id": "w-files",
+      "type": "files",
+      "x": 660,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 13,
+      "config": {}
+    },
+    {
+      "id": "w-stocks",
+      "type": "stocks",
+      "x": 970,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 14,
+      "config": {}
+    },
+    {
+      "id": "w-xyz",
+      "type": "xyz",
+      "x": 1280,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 15,
+      "config": {}
+    },
+    {
+      "id": "w-xueqiu",
+      "type": "xueqiu",
+      "x": 1590,
+      "y": 602,
+      "w": 290,
+      "h": 398,
+      "opacity": 1,
+      "z": 16,
+      "config": {}
+    }
+  ],
+  "viewportW": 1920,
+  "viewportH": 1040
+}

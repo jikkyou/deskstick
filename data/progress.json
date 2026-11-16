@@ -1,0 +1,11 @@
+[
+  {
+    "id": "seed-p1",
+    "label": "本月读书",
+    "current": 2,
+    "target": 8,
+    "unit": " 本",
+    "step": 1,
+    "color": "#5aa2ff"
+  }
+]

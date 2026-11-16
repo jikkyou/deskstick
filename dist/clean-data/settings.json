@@ -1,0 +1,19 @@
+{
+  "theme": {
+    "name": "深蓝",
+    "h": 220,
+    "s": 27,
+    "l": 6
+  },
+  "type": {
+    "fontCjk": "Microsoft YaHei UI",
+    "fontLatin": "Segoe UI",
+    "colorText": "#eef2f7",
+    "colorDim": "#b3bfd0"
+  },
+  "calendar": {
+    "maxRows": 3,
+    "weeks": 5
+  },
+  "uiScale": "auto"
+}
